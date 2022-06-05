@@ -76,7 +76,7 @@
 .button-active{
     background-color: #F54531;
 }
-@media (min-width: 576px){
+@media screen and(min-width:576px){
     .calculator{
         width: 350px;
     }
