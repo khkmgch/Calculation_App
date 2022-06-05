@@ -65,7 +65,7 @@
     text-align: center;
     border-radius: 5px;
     border: 2px solid rgb(248, 168, 139);
-	/* background-color: transparent; */
+    transition: 1.5s;
 }
 .bg-trans{
     background-color: transparent;
