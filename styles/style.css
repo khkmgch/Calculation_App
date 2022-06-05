@@ -77,14 +77,14 @@
 }
 @media screen and(min-width:576px){
     .calculator{
-        width: 350px;
+        width: 350px!important;
     }
     .number-display{
-        height: 150px;
+        height: 150px!important;
     }
     .buttons button {
-        width: 55px;
-        height: 55px;
-        margin: 6px;
+        width: 55px!important;
+        height: 55px!important;
+        margin: 6px!important;
     }
 }
