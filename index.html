@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <!-- Vue.js CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/style.css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+
+        <!-- Title -->
+        <title>Calculation_App</title>
+    </head>   
+    <body>
+        <div class="bg-color vh-100 d-flex justify-content-center align-items-center">
+            <div id="calculator" class="calculator justify-content-center p-3">
+                <div class="number-display">
+                    <div class="display-inner display-text p-2">
+                        {{expression}}
+                    </div>
+                    <div class="display-inner display-text text-end p-2">
+                        {{answer}}
+                    </div>
+                </div>
+                <div class="buttons d-flex flex-wrap justify-content-between mt-2 px-3" >
+                    <button id="btnAc" class="bg-trans" v-on:click="btnAc()">Ac</button>
+                    <button id="btnDel" class="bg-trans" v-on:click="btnDel()">Del</button>
+                    <button id="btnOpeningParentheses" class="bg-trans" v-on:click="btnOp(`(`)">(</button>
+                    <button id="btnClosingParentheses" class="bg-trans" v-on:click="btnOp(`)`)">)</button>
+                    <button id="btn7" class="bg-trans" v-on:click="btnNum(`7`)">7</button>
+                    <button id="btn8" class="bg-trans" v-on:click="btnNum(`8`)">8</button>
+                    <button id="btn9" class="bg-trans" v-on:click="btnNum(`9`)">9</button>
+                    <button id="btnDivision" class="bg-trans" v-on:click="btnOp(`/`)">/</button>
+                    <button id="btn4" class="bg-trans" v-on:click="btnNum(`4`)">4</button>
+                    <button id="btn5" class="bg-trans" v-on:click="btnNum(`5`)">5</button>
+                    <button id="btn6" class="bg-trans" v-on:click="btnNum(`6`)">6</button>
+                    <button id="btnMultiplication" class="bg-trans" v-on:click="btnOp(`*`)">×</button>
+                    <button id="btn1" class="bg-trans" v-on:click="btnNum(`1`)">1</button>
+                    <button id="btn2" class="bg-trans" v-on:click="btnNum(`2`)">2</button>
+                    <button id="btn3" class="bg-trans" v-on:click="btnNum(`3`)">3</button>
+                    <button id="btnSubtraction" class="bg-trans" v-on:click="btnOp(`-`)">-</button>
+                    <button id="btn0" class="bg-trans" v-on:click="btnNum(`0`)">0</button>
+                    <button id="btnPoint" class="bg-trans" v-on:click="btnNum(`.`)">.</button>
+                    <button id="btnEqual" class="bg-trans" v-on:click="btnEqual()">=</button>
+                    <button id="btnAddition" class="bg-trans" v-on:click="btnOp(`+`)">+</button>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="scripts/calculation_app.js"></script>
+    </body>
+</html>
