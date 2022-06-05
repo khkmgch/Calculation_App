@@ -10,7 +10,7 @@ Vue.jsの練習を兼ねて作成しました。
 ![calculation_app](https://user-images.githubusercontent.com/101968115/172043605-20ac84f1-aef4-466a-93d2-1ea0fcc292b0.png)
 
 ## Url
-
+https://khkmgch.github.io/Calculation_App/
 
 ## Usage
 キーボード入力にも対応しています。
