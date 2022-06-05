@@ -44,11 +44,11 @@
     height: 7px;
 }
 .display-inner::-webkit-scrollbar-track {
-  background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 .display-inner::-webkit-scrollbar-thumb {
-  background: rgb(84, 95, 95);
-  border-radius: 5px;
+    background: rgb(84, 95, 95);
+    border-radius: 5px;
 }
 .display-text{
     font-family: 'Nova Cut', cursive;
