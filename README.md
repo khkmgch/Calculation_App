@@ -1,7 +1,7 @@
 # Calculation_App
 
 ## Descripsiton
-RecursionのProject「Calculation App」で作成した計算機アプリです。
+RecursionのProjectで作成した計算機アプリです。
 
 Vue.jsの練習を兼ねて作成しました。
 
