@@ -7,7 +7,6 @@ Vue.jsの練習を兼ねて作成しました。
 
 スタックを使って文字列の式を左から解析し、答えを返します。
 
-![calculation_app](https://user-images.githubusercontent.com/101968115/172043605-20ac84f1-aef4-466a-93d2-1ea0fcc292b0.png)
 ![calculation-app](https://github.com/khkmgch/Calculation_App/assets/101968115/6606547c-792c-4b05-a249-8eba50b43eb9)
 
 ## Url
