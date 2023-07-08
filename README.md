@@ -1,9 +1,7 @@
 # Calculation_App
 
 ## Descripsiton
-RecursionのProjectで作成した計算機アプリです。
-
-Vue.jsの練習を兼ねて作成しました。
+Vue.jsの練習を兼ねて作成した計算機アプリです。
 
 スタックを使って文字列の式を左から解析し、答えを返します。
 
