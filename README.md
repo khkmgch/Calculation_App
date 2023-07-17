@@ -7,7 +7,7 @@ Vue.jsの練習を兼ねて作成した計算機アプリです。
 
 ![calculation-app](https://github.com/khkmgch/Calculation_App/assets/101968115/6606547c-792c-4b05-a249-8eba50b43eb9)
 
-## Url
+## :globe_with_meridians:Url
 https://khkmgch.github.io/Calculation_App/
 
 ## Usage
