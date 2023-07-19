@@ -3,7 +3,7 @@
 ## Descripsiton
 Vue.jsの練習を兼ねて作成した計算機アプリです。
 
-スタックを使って文字列の式を左から解析し、答えを返します。
+スタックを使って、ユーザーの入力（文字列の式）を左から解析し、答えを返します。
 
 ![calculation-app](https://github.com/khkmgch/Calculation_App/assets/101968115/6606547c-792c-4b05-a249-8eba50b43eb9)
 
