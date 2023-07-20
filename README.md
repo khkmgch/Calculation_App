@@ -13,9 +13,9 @@ https://khkmgch.github.io/Calculation_App/
 ## Usage
 キーボード入力にも対応しています。
 
-c  >>  ACボタン
+**c**  >>  ACボタン
 
-Backspace  >> Delボタン
+**Backspace**  >> Delボタン
 
 数値、演算子キーはボタンアイコンと同じものに対応しています。
 
