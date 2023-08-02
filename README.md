@@ -30,3 +30,9 @@ https://khkmgch.github.io/Calculation_App/
 桁の多い数値は指数表記eで表示されます。
 
 精度は小数点以下14桁までで、15桁以下は切り捨てて返します。
+
+## 使用技術
+- Vue
+- JavaScript
+- Bootstrap
+- HTML/CSS
